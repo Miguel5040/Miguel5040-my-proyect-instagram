@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0;
+} 
+
+section{
+    max-width: 50%;
+    border: solid 1px black;
+    margin: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section header{
+    display: flex;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.numeros{
+    display: flex;
+    align-items: center;
+}
+
+section header h3{
+    margin-left: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#imagen{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: white;
+    text-align: justify;
+}
+
+p{
+    margin: 0;
+    padding: 15px 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
